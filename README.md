@@ -1,10 +1,23 @@
 #各种IOS Android Scheme
 
 
-
+IOS包名
+Camera:       com.apple.camera
+AppStore:     com.apple.AppStore
+Contacts:     com.apple.MobileAddressBook
+Mail:         com.apple.mobilemail
+GameCenter:   com.apple.gamecenter
+MobileSafari: com.apple.mobilesafari
+Preferences:  com.apple.Preferences
+iPod:         com.apple.mobileipod
+Photos:       com.apple.mobileslideshow
+Calendar:     com.apple.mobilecal
+Clock:        com.apple.mobiletimer
+Safari:       com.apple.mobilesafari
 
 
 iOS 系统内置 URL Schema
+
 
 设置 perfs:root=ControlCenter&path=CUSTOMIZE_CONTROLS
 
