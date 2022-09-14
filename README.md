@@ -1,5 +1,6 @@
-# SCHEME
-各种IOS Android
+#各种IOS Android Scheme
+
+
 
 
 
@@ -96,6 +97,7 @@ Siri 设置 prefs:root=SIRI
 招商银行 cmbmobilebank://
 
 
+小红书Scheme
 xhsdiscover://account/bind/’,//账号与安全
 xhsdiscover://choose_share_user’,//分享给用户
 xhsdiscover://dark_mode_setting/’,//深色设置
@@ -138,6 +140,11 @@ xhsdiscover://topic/v2/keyword’,//话题
 xhsdiscover://user/6704334291, //用户主页
 xhsdiscover://user/id/followers’,//TA的粉丝
 
+
+
+
+抖音Scheme
+
 home: "snssdk1128://feed?refer=web&gd_label={{gd_label}}",
 detail: "snssdk1128://aweme/detail/{{id}}?refer=web&gd_label={{gd_label}}&appParam={{appParam}}&needlaunchlog=1",
 user: "snssdk1128://user/profile/{{uid}}?refer=web&gd_label={{gd_label}}&type={{type}}&needlaunchlog=1",
@@ -153,7 +160,6 @@ billboard_video: "snssdk1128://search/trending?type=1",
 billboard_music: "snssdk1128://search/trending?type=2",
 billboard_positive: "snssdk1128://search/trending?type=3",
 billboard_star: "snssdk1128://search/trending?type=4"
-
 
 
 跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_profile_bottom&type=need_follow&needlaunchlog=1 snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_download_follow&type=need_follow&needlaunchlog=1
