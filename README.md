@@ -155,7 +155,7 @@ xhsdiscover://user/id/followers’,//TA的粉丝
 
 
 
-抖音Scheme
+抖音Scheme  多闪 snssdk1349 极速版 snssdk2329
 
 home: "snssdk1128://feed?refer=web&gd_label={{gd_label}}",
 detail: "snssdk1128://aweme/detail/{{id}}?refer=web&gd_label={{gd_label}}&appParam={{appParam}}&needlaunchlog=1",
@@ -174,7 +174,8 @@ billboard_positive: "snssdk1128://search/trending?type=3",
 billboard_star: "snssdk1128://search/trending?type=4"
 
 
-跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_profile_bottom&type=need_follow&needlaunchlog=1 snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_download_follow&type=need_follow&needlaunchlog=1
+跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_profile_bottom&type=need_follow&needlaunchlog=1          
+跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_download_follow&type=need_follow&needlaunchlog=1
 
 打开视频： snssdk1128://aweme/detail/6683443624597916941?refer=web&gd_label=click_wap_profile_feature&appParam=&needlaunchlog=1
 
