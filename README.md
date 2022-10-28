@@ -155,7 +155,7 @@ xhsdiscover://user/id/followers’,//TA的粉丝
 
 
 
-抖音Scheme  多闪 snssdk1349 极速版 snssdk2329
+抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 火山 snssdk1112
 
 home: "snssdk1128://feed?refer=web&gd_label={{gd_label}}",
 detail: "snssdk1128://aweme/detail/{{id}}?refer=web&gd_label={{gd_label}}&appParam={{appParam}}&needlaunchlog=1",
