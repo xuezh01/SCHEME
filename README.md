@@ -174,6 +174,7 @@ billboard_positive: "snssdk1128://search/trending?type=3",
 billboard_star: "snssdk1128://search/trending?type=4"
 
 火山 snssdk1112
+
 home: "snssdk1112://",
 item: "snssdk1112://item?detail_label=return_page",
 item_follow: "snssdk1112://item?auto_follow=1&detail_label=return_page",
@@ -185,12 +186,11 @@ hash: "snssdk1112://hashtag_collection",
 circle: "snssdk1112://moment_detail?media_type=5&show_moment_title=1&is_show_circle=1",
 circle_hashtag: "snssdk1112://moment_feed"
 
-
-
-
-跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_profile_bottom&type=need_follow&needlaunchlog=1          
+火山关注
+snssdk1112://profile?auto_follow=1&encryptedID=MS4wLjABAAAAkR1b_wEekr77jlFNTsjvQJOnyzkaYVmbwN_tj8e4-bw
+火山作品页面 snssdk1112://item?id=6622594672759934222
+抖音      
 跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_download_follow&type=need_follow&needlaunchlog=1
-
 打开视频： snssdk1128://aweme/detail/6683443624597916941?refer=web&gd_label=click_wap_profile_feature&appParam=&needlaunchlog=1
 
 原声（同一个音乐的作品）： snssdk1128://music/detail/6680045787365247747?refer=web
