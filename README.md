@@ -155,7 +155,7 @@ xhsdiscover://user/id/followers’,//TA的粉丝
 
 
 
-抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 火山 snssdk1112
+抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 
 home: "snssdk1128://feed?refer=web&gd_label={{gd_label}}",
 detail: "snssdk1128://aweme/detail/{{id}}?refer=web&gd_label={{gd_label}}&appParam={{appParam}}&needlaunchlog=1",
@@ -172,6 +172,20 @@ billboard_video: "snssdk1128://search/trending?type=1",
 billboard_music: "snssdk1128://search/trending?type=2",
 billboard_positive: "snssdk1128://search/trending?type=3",
 billboard_star: "snssdk1128://search/trending?type=4"
+
+火山 snssdk1112
+home: "snssdk1112://",
+item: "snssdk1112://item?detail_label=return_page",
+item_follow: "snssdk1112://item?auto_follow=1&detail_label=return_page",
+profile: "snssdk1112://profile",
+profile_follow: "snssdk1112://profile?auto_follow=1",
+room: "snssdk1112://room",
+webview: "snssdk1112://webview",
+hash: "snssdk1112://hashtag_collection",
+circle: "snssdk1112://moment_detail?media_type=5&show_moment_title=1&is_show_circle=1",
+circle_hashtag: "snssdk1112://moment_feed"
+
+
 
 
 跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_profile_bottom&type=need_follow&needlaunchlog=1          
