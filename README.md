@@ -153,7 +153,14 @@ xhsdiscover://user/6704334291, //用户主页
 xhsdiscover://user/id/followers’,//TA的粉丝
 
 
+关注
+bilibili://space/233134186
 
+点赞
+bilibili://video/559789678
+
+关注+点赞
+bilibili://video/603471827?page=0&-Arouter=story&source=web
 
 抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 
