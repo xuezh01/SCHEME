@@ -1,6 +1,50 @@
 #各种IOS Android Scheme
 iOS 系统内置 URL Schema
 
+单独说明做任务URLschemes  
+
+Safari:       com.apple.mobilesafari
+
+打开 Safari 浏览器 x-web-search://
+
+小红书urlschemes
+xhsdiscover://video_feed/id’,//视频作品页
+
+xhsdiscover://item/id?type=normal’, //文字作品页
+
+xhsdiscover://item/id?type=video’,//视频作品页
+
+xhsdiscover://user/6704334291, //用户主页
+
+抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes   除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
+火山关注页面
+
+snssdk1112://profile?auto_follow=1&encryptedID=MS4wLjABAAAAkR1b_wEekr77jlFNTsjvQJOnyzkaYVmbwN_tj8e4-bw
+
+火山作品页面 
+
+snssdk1112://item?id=6622594672759934222
+
+抖音/极速/多闪
+
+跳转主页并关注: snssdk1128://user/profile/72673737181?refer=web&gd_label=click_wap_download_follow&type=need_follow&needlaunchlog=1
+
+打开视频： snssdk1128://aweme/detail/6683443624597916941?refer=web&gd_label=click_wap_profile_feature&appParam=&needlaunchlog=1
+
+
+国际版/国内版/国内绿色版
+哔哩哔哩关注
+
+bilibili://space/233134186
+
+哔哩哔哩点赞
+
+bilibili://video/559789678
+
+哔哩哔哩关注+点赞(短视频页面)
+
+bilibili://video/603471827?page=0&-Arouter=story&source=web
+
 
 
 
