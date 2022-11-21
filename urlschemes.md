@@ -8,13 +8,14 @@ Safari:       com.apple.mobilesafari
 打开 Safari 浏览器 x-web-search://
 
 小红书urlschemes
-xhsdiscover://video_feed/id’,//视频作品页
 
-xhsdiscover://item/id?type=normal’, //文字作品页
+xhsdiscover://video_feed/id           ’,//视频作品页
 
-xhsdiscover://item/id?type=video’,//视频作品页
+xhsdiscover://item/id?type=normal     ’, //文字作品页
 
-xhsdiscover://user/6704334291, //用户主页
+xhsdiscover://item/id?type=video      ’,//视频作品页
+
+xhsdiscover://user/6704334291         , //用户主页
 
 抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes   除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 火山关注页面
@@ -33,6 +34,7 @@ snssdk1112://item?id=6622594672759934222
 
 
 国际版/国内版/国内绿色版
+
 哔哩哔哩关注
 
 bilibili://space/233134186
