@@ -1,4 +1,4 @@
-#各种IOS Android Scheme
+#各种IOS Android Scheme intent  觉得密密麻麻点击右上角RAW
 iOS 系统内置 URL Schema
 
 单独说明做任务URLschemes  
