@@ -17,7 +17,7 @@ xhsdiscover://item/id?type=video      ’,//视频作品页
 
 xhsdiscover://user/6704334291         , //用户主页
 
-抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes   除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
+抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes  可颂urlschemes 除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 火山关注页面
 
 snssdk1112://profile?auto_follow=1&encryptedID=MS4wLjABAAAAkR1b_wEekr77jlFNTsjvQJOnyzkaYVmbwN_tj8e4-bw
@@ -32,6 +32,15 @@ snssdk1112://item?id=6622594672759934222
 
 打开视频： snssdk1128://aweme/detail/6683443624597916941?refer=web&gd_label=click_wap_profile_feature&appParam=&needlaunchlog=1
 
+可颂  主页可单一USER数据
+
+关注主页
+
+snssdk325528://profile?needlaunchlog=1&launch_from=backflow&user_id=107959119338&sec_uid=MS4wLjABAAAAB8DaQR_Zgwv66pzF2P36lscS4VZjVW_zI2yRdy5aAsQ
+
+作品页面
+
+snssdk325528://slides/detail?needlaunchlog=1&launch_from=backflow&sid=7159586128088026409
 
 国际版/国内版/国内绿色版
 
