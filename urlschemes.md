@@ -353,3 +353,65 @@ Siri 设置 prefs:root=SIRI
 建设银行 wx2654d9155d70a468://
 
 招商银行 cmbmobilebank://
+
+支付宝
+
+在支付宝内打开指定网址
+alipays://platformapi/startapp?appId=20000067&url=http://m.taobao.com
+alipays://platformapi/startapp?saId=10000007&qrcode=http://baidu.com
+指定金额、备注，直接给人转账界面
+
+接口1
+alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=金额&userId=2088502951749002&memo=备注
+例子
+alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=10.00&userId=2088502951749002&memo=备注
+
+接口2
+alipays://platformapi/startapp?appId=20000123&actionType=scan&biz_data={“s”: “money”,”u”: “商户id”,”a”: “金额”,”m”:”备注”}
+例子，要转编码
+alipays://platformapi/startapp?appId=20000123&actionType=scan&biz_data={“s”: “money”,”u”: “2088222129248934”,”a”: “1.00”,”m”:”2018121414041942631″}
+编码后
+alipays://platformapi/startapp?appId=20000123&actionType=scan&biz_data=%7b%22s%22%3a+%22money%22%2c%22u%22%3a+%222088222129248934″,”a”: “0.01”,”m”:”Q1737882100″}
+alipays://platformapi/startapp?appId=20000067&url=网址
+
+alipays://platformapi/startapp?appId=20000691&url=网址
+
+alipays://platformapi/startapp?appId=60000050&url= 网址
+
+taobao://www.alipay.com/?appId=10000007&qrcode=网址
+
+加好友:
+alipays://platformapi/startapp?appId=20000186&actionType=profile&source=by_xxx&userId=”+a+”&loginId=”+b;
+
+发红包:
+alipays://platformapi/startapp?appId=88886666&appLaunchMode=3&canSearch=false&chatLoginId=1&chatUserId=” + a + “&chatUserName=x&chatUserType=1&entryMode=personalStage&prevBiz=chat&schemaMode=portalInside&target=personal&money=”+h+”&amount=” + h + “&remark=” +c;
+
+发消息:
+alipays://platformapi/startapp?appId=20000167&targetAppId=back&tUserId=支付宝ID&tUserType=1&tLoginId=支付宝账号&autoFillContent=内容&autoFillBiz=内容
+
+收款:
+alipayqr://platformapi/startapp?appId=20000123&actionType=scan&biz_data={\”s\”: \”money\”,\”u\”: \”支付宝pid\”,\”a\”: \”金额\”,\”m\”: \”备注\”} （带备注 金额不可修改/同理去掉订单号不带备注不可修改为收款）
+
+转账:
+alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=1&userId=支付宝pid&memo=备注 （带备注 金额可修改）
+
+alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=金额&userId=支付宝pid （不带备注 金额可修改）
+
+调用账单:
+alipays://platformapi/startapp?appId=20000003&actionType=toBillDetails&tradeNO=支付宝订单号
+
+转卡：
+
+alipays://platformapi/startapp?appId=09999988&actionType=toCard&sourceId=bill&cardNo=卡号&bankAccount=姓名&amount=金额&bankMark&bankMark=CCB&bankName=
+
+好友资料：
+alipays://platformapi/startapp?appId=20000186&actionType=profile&source=by_xxx&userId=”+a+”&loginId=”+b
+
+拉起收银台：
+alipays://platformapi/startApp?appId=20000125&orderSuffix=’ + o.android +’#Intent;scheme=alipays;package=com.eg.android.AlipayGphone;end
+
+拉起摄像头：
+alipays://platformapi/startapp?appId=10000007&url=
+
+调用对话框：
+alipays://platformapi/startapp?appId=20000167&targetAppId=back&tUserId=支付宝pid&tUserType=1&tLoginId=登陆账号
