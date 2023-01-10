@@ -17,6 +17,10 @@ xhsdiscover://item/id?type=video      ’,//视频作品页
 
 xhsdiscover://user/6704334291         , //用户主页
 
+头条主页
+snssdk141://profile?refer=header&source=WXShareNew&uid=4268001538
+
+
 抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes  可颂urlschemes 除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 火山关注页面
 
