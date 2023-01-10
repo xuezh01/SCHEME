@@ -20,6 +20,8 @@ xhsdiscover://user/6704334291         , //用户主页
 头条主页
 snssdk141://profile?refer=header&source=WXShareNew&uid=4268001538
 
+头条视频
+snssdk143://immerse_video?group_id=7186948664664064546&from_page=wap_weixin&enter_from=click_category&category_name=tt_subv_inner_feed&root_category_name=xx&from_category=xx&list_entrance=wap_weixin&gd_label=click_weixin_hlyshvideo_bar&needlaunchlog=1&gd_ext_json=%7B%22parent_rid%22%3A%2213378181673344624726%22%7D&zlink=https%3A%2F%2Farticle.zlink.toutiao.com%2Fya1p&zlink_click_time=1673360417257&zlink_data=%7B%22position%22%3A%22topbanner%22%2C%22gid%22%3A%227186948664664064546%22%2C%22vid%22%3A%223786449%22%2C%22utm_source%22%3A%22%22%2C%22share_token%22%3A%22%22%2C%22web_id%22%3A%22%22%7D
 
 抖音urlschemes  火山urlschemes  极速urlschemes  多闪urlschemes  可颂urlschemes 除了火山其他三个APP urlschemes只用改前缀  抖音Scheme  多闪 snssdk1349 极速版 snssdk2329 
 火山关注页面
