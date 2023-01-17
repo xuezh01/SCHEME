@@ -3,6 +3,8 @@ iOS 系统内置 URL Schema
 
 单独说明做任务URLschemes  
 
+VPN - prefs:root=VPN 
+
 Safari:       com.apple.mobilesafari
 
 打开 Safari 浏览器 x-web-search://
